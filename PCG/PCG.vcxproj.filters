@@ -13,15 +13,35 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\TerrainGenerationHeaders">
+      <UniqueIdentifier>{4e3b5385-f8be-4eaa-b413-11a00f9baa14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TerrainGenerationClasses">
+      <UniqueIdentifier>{5f523d59-5e30-42d6-b64b-ce7b8aed6e28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="perlin.cpp">
+      <Filter>Source Files\TerrainGenerationClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Source Files\TerrainGenerationClasses</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="lettuce.png">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="perlin.h">
+      <Filter>Header Files\TerrainGenerationHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Header Files\TerrainGenerationHeaders</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
